@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class PhpService {
   // URL do servidor XAMPP local
-  static const String baseUrl = 'http://10.0.2.2/meal_api'; // Para emulador Android
+  static const String baseUrl = 'http://localhost:8000'; // Para emulador Android
   // Use 'http://localhost/meal_api' para iOS simulator ou navegador web
   // Use 'http://SEU_IP/meal_api' para dispositivo físico (ex: 'http://192.168.1.100/meal_api')
   // Para descobrir seu IP: Windows use 'ipconfig', Mac/Linux use 'ifconfig'
@@ -125,4 +125,5 @@ class PhpService {
       return [];
     }
   }
+
 }
